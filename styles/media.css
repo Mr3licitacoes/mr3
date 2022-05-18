@@ -1,0 +1,5 @@
+@media screen and (max-width: 1000px) {
+    header {
+        background-position-x: -700px;
+    }
+}
