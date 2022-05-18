@@ -134,28 +134,27 @@ header {
     margin: 15px;
     
 }
-.fundo-content p {
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    max-width: 215px;
-    padding: 5px;
-    margin-bottom: 100px;
-}
-.fundo-teste {
-    margin: 0px 100px;
-}
 .blocos {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+.bloco {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    /* border: 1px solid black; */
+}
+.bloco-content {
+    width: 300px;
+    height: 200px;
+}
+.quebrar {
     flex-wrap: wrap;
 }
-.conteudo-bloco {
-    max-width: 200px;
-    height: 200px;
-    line-height: 200px;
+.fundo-teste {
+    margin: 0px 100px;
 }
 .bloco-2 {
     background-image: url('../img/banner2.jpg');
