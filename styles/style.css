@@ -88,7 +88,7 @@ header {
     max-height: 95px;
 }
 .title p {
-    margin: 20px 30px;
+    margin: 30px 30px;
     max-width: 450px;
     font-weight: 300;
     font-size: 18px;
@@ -106,22 +106,19 @@ header {
     border-radius: 4px;
     font-weight: 400;
     padding: 10px;
-    margin: 5px;
+    margin: 20px 5px;
     color: black;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
 .botao:hover {
-    margin: 5px;
+    margin: 20px 5px;
     border-radius: 5px;
     background-color: rgba(31, 31, 31, 0.205);
     transition: 0.3s;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: 1.7px solid rgba(24, 24, 24, 0.533);
-}
-.content {
-    max-height: auto;
 }
 .article-text {
     display: flex;
@@ -141,18 +138,6 @@ header {
     font-size: 30px;
     font-weight: 600;
     color: rgb(30, 30, 30);
-}
-.fundo {
-    background-color: #2b324069;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 10px;
-    padding: 12px;
-    margin: 15px;
 }
 .blocos-container {
     align-items: center;
@@ -204,11 +189,6 @@ header {
 .quebrar {
     flex-wrap: wrap;
 }
-.fundo-teste {
-    height: 100%;
-    margin: 0;
-    border-radius: 0;
-}
 .sobre-container {
     display: flex;
     flex-direction: column;
@@ -217,8 +197,8 @@ header {
 .sobre-bloco {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     margin: 100px 0px;
+    flex-wrap: wrap;
 }
 .sobre-bloco img{
     width: 400px;
@@ -232,7 +212,7 @@ header {
     text-align: justify;
 }
 .sobre-article p {
-    margin-block-start: 10px;
+    margin-top: 10px;
     font-weight: 300;
 }
 .sobre-article h2 {
@@ -241,7 +221,18 @@ header {
     color: rgb(30, 30, 30);
     margin-top: 40px;
 }
-
+.bloco-2-container {
+    background-color: #2b324069;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    margin: 15px;
+    margin: 0;
+}
 .bloco-2 {
     background-image: url('../img/banner2.jpg');
     background-attachment: fixed;
@@ -251,11 +242,28 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-.clientes {
-    width: 800px;
+.bloco-2-article {
+    font-weight: 300;
+    background-color: white;
+    width: 400px;
     height: 200px;
+    border-radius: 10px;
+    margin: 20px;
 }
-.clientes p {
+.bloco-2-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:  wrap;
+    margin: 200px 0px;
+}
+.bloco-2-article h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(30, 30, 30);
+    margin-top: 10px;
+}
+.bloco-2-article p {
     margin: 20px;
 }
 .marcas-container {
@@ -265,16 +273,22 @@ header {
     flex-direction: column;
     justify-content: center;
 }
-.marca {
+.marcas {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
+.marca {
+    background-color: rgba(255, 255, 255, 0.121);
+    margin: 40px 30px;
+    border-radius: 10px;
+    width: auto;
+    height: 120px;
+}
 .marca img{
     width: auto;
     height: 120px;
-    margin: 40px 30px;
     border-radius: 10px;
 }
 footer {
