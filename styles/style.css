@@ -88,7 +88,7 @@ header {
     max-height: 95px;
 }
 .title p {
-    margin-top: 20px;
+    margin: 20px 30px;
     max-width: 450px;
     font-weight: 300;
     font-size: 18px;
@@ -98,6 +98,27 @@ header {
     margin-top: 40px;
     color: rgb(16, 16, 16);
     font-weight: 400;
+}
+.botao {
+    font-size: 14px;
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.botao:hover {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgba(31, 31, 31, 0.205);
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: 1.7px solid rgba(24, 24, 24, 0.533);
 }
 .content {
     max-height: auto;
@@ -134,21 +155,52 @@ header {
     margin: 15px;
     
 }
+.blocos-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .blocos {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 40px 0px;
+    max-width: 1300px;
 }
 .bloco {
     display: flex;
     flex-direction: row;
-    width: 300px;
-    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 10px;
+}
+.bloco-icone {
+    width: auto;
+    height: 40px;
+    background-color: rgba(225, 225, 225, 0.83);
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: row;
+    justify-content: center;
+    align-items: center;
+}
+.bloco-icone img {
+    width: auto;
+    height: 40px;
 }
 .bloco-content {
     width: 300px;
-    height: 200px;
+    height: 150px;
+}
+.bloco-content p {
+    margin-top: 10px;
+    font-weight: 300;
+}
+.bloco-content h2 {
+    font-weight: 400;
 }
 .quebrar {
     flex-wrap: wrap;
@@ -188,7 +240,8 @@ footer {
     padding: 20px;
     color: white;
     height: 450px;
-    background-color: rgba(47, 38, 60, 0.974);
+    background-color: #2b3240;
+    /* background-color: rgba(47, 38, 60, 0.974); */
 }
 .footer-content {
     display: flex;
