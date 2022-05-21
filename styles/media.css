@@ -1,5 +1,42 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 760px) {
     header {
         background-position-x: -700px;
+    }
+    .menu .logo-mr3 {
+        display: none;
+    }
+    .menu {
+        font-size: 13px;
+        justify-content: center;
+        height: 50px;
+    }
+    .menu ul {
+        padding: 0;
+    }
+    .menu a {
+        margin: 0;
+    }
+    .title {
+        margin: 80px 20px;
+    }
+    .blocos-container {
+        margin: 10px 30px;
+    }
+    .sobre-bloco {
+        margin: 20px;
+    }
+    .sobre-bloco img {
+        margin: 0;
+        width: 350px;
+        height: 250px;
+    }
+    .sobre-article p {
+        margin: 20px;
+    }
+    .sobre-article h2 {
+        margin: 20px;
+    }
+    .direitos {
+        font-size: 12px;
     }
 }
