@@ -19,15 +19,19 @@ header {
     max-width: 100%;
     height: 100vh;
 }
+.menu-mobile {
+    display: none;
+}
 .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     position: relative;
+    background-color: rgba(190, 190, 190, 0.4);
     width: 100%;
     top: 20px;
-    background-color: rgba(190, 190, 190, 0.4);
+    min-width: 300px;
 }
 .menu img {
     width: auto;
@@ -44,6 +48,10 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-width: 300px;
+}
+.menu li {
+    margin: 12px;
 }
 .menu a {
     font-weight: 400;
@@ -73,7 +81,7 @@ header {
     padding: 10px 20px;
 }
 .title {
-    margin: 130px 60px;
+    padding: 130px 60px;
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -109,8 +117,9 @@ header {
 }
 .botao {
     font-size: 16px;
-    width: 130px;
-    height: 40px;
+    width: 120px;
+    height: 25px;
+    line-height: 24px;
     border-radius: 4px;
     font-weight: 400;
     padding: 10px;
@@ -118,6 +127,8 @@ header {
     color: black;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    
 }
 .botao:hover {
     margin: 20px 5px;
@@ -129,7 +140,9 @@ header {
 }
 .servicos {
     position: relative;
-    height: auto;
+    max-height: auto;
+    min-height: 100vh;
+    padding: 25px;
 }
 .article-text {
     display: flex;
@@ -151,28 +164,29 @@ header {
     max-width: 900px;
     margin: 0 20px;
     z-index: 1;
+    margin-bottom: 180px;
 }
 .img-triangulo {
     position: absolute;
     top: 0;
     right: 0;
-    width: auto;
-    height: 250px;
+    max-width: 15%;
 }
 .servicos-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 180px;
+    /* margin-top: 180px; */
     flex-wrap: wrap;
 }
 .servicos-content {
+    min-width: 330px;
     width: 330px;
-    height: 350px;
+    height: auto;
     margin: 20px 40px;
 }
-.servicos-icon{
+.servicos-icon {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -189,16 +203,16 @@ header {
 .servicos-content h3 {
     text-align: center;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 1.8rem;
 }
 .servicos-content p,li {
     text-align: justify;
     margin-top: 10px;
-    font-size: 17px;
+    font-size: max(12px, 1vw);
     font-weight: 300;
 }
 .servicos-content li {
-    font-size: 15px;
+    font-size: max(10px, 0.8vw);
     text-align: start;
     margin-top: 0;
     margin-left: 5px;
@@ -262,12 +276,9 @@ header {
 .sobre-bloco {
     display: flex;
     flex-direction: row;
-    /* margin: 30px 0px; */
+    justify-content: center;
     margin-bottom: 100px;
     align-items: center;
-}
-.sobre-bloco-margin {
-    margin-bottom: 380px;
 }
 .row-reverse {
     display: flex;
@@ -289,6 +300,7 @@ header {
     margin: 10px;
     max-width: 400px;
     text-align: justify;
+    z-index: 2;
 }
 .sobre-article p {
     margin-top: 20px;
@@ -310,8 +322,7 @@ header {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: auto;
-    height: 250px;
+    max-width: 15%;
  }
 footer {
     color: white;
@@ -327,12 +338,17 @@ footer {
     text-align: start;
     align-items: start;
 }
+.footer-content p {
+    font-size: min(20px, 3.1vw);
+    font-weight: 300;
+    line-height: 32px;
+}
 .contato {
     margin-top: 200px;
     padding: 0;
 }
 .endereco p {
-    width: 400px;
+    width: 400px
 }
 .footer {
     display: flex;
@@ -341,17 +357,12 @@ footer {
     align-items: start;
     padding: 25px;
 }
-.footer p {
-    font-size: 22px;
-    font-weight: 300;
-    line-height: 32px;
-}
 
 .menu-footer .logo-mr3 img {
     width: auto;
     height: 72px ;
 }
-.menu-footer {
+.menu-footer { 
     height:120px ;
     background-color: rgba(150, 150, 150, 0.5);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
@@ -386,7 +397,7 @@ footer {
 }
 .social-icon img {
     width: 50px;
-    margin: 5px;
+    margin: 20px 5px;
 }
 .social-content {
     padding: 20px;
@@ -395,20 +406,19 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
 }
 .marca {
     background-color: rgba(255, 255, 255, 0.121);
     margin: 20px 14px;
     border-radius: 10px;
-    width: auto;
-    height: 130px;
+    width: 220px;
+    height: auto;
     filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
     
 }
 .marca img{
-    width: auto;
-    height: 130px;
+    width: 220px;
+    height: auto;
     border-radius: 10px;
 }
 .direitos {

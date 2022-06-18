@@ -11,6 +11,16 @@
 </head>
 <body>
     <header>
+        <div class="btn-menu">
+            <img src="./img/icon/menu.png" alt="Botão Menu">
+        </div>
+        <nav class="menu-mobile">
+                <div id="close-btn">x</div>
+                <li><a href="#">INÍCIO</a></li>
+                <li><a href="#servicos">SERVIÇOS</a></li>
+                <li><a href="#sobre">SOBRE</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+        </nav>
         <nav class="menu">
             <div class="logo-mr3">
                 <img src="./img/mr3logo.png" alt="Logo MR3">
@@ -30,7 +40,7 @@
                 </div>
                 <h1>Conheça nossos serviço!</h1>
                 <p>Nós da MR3 Soluções... adipisicing elit. Voluptatum quod nesciunt, similique porro dignissimos architecto?</p>
-                <input class="botao" type="button" value="Saiba mais">
+                <a class="botao" href="#contato">Saiba Mais</a>
             </div>
         </div>
     </header>
@@ -160,22 +170,6 @@
                 </div>
                     <img class="img-triangulo-sobre" src="./img/icon/triangulo-cort-invert.png" alt="Triangulos Logo Marca">
             </div>
-        <!-- <div class="marcas-container">
-                <div class="marcas">
-                    <div class="marca">
-                        <img src="./img/parceiros/milk9.png" alt="marca">
-                    </div>
-                    <div class="marca">
-                        <img src="./img/parceiros/LOGOS-ICAMP.png" alt="marca">
-                    </div>
-                    <div class="marca">
-                        <img src="./img/parceiros/lelli.png" alt="marca">
-                    </div>
-                    <div class="marca">
-                        <img src="./img/parceiros/LOGOS-ICAMP.png" alt="marca">
-                    </div>
-                </div>
-        </div> -->
         <div class="mapa">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13816.988630720463!2d-51.23901005804695!3d-30.029766382829315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519790e4d043eab%3A0x769a0820bae18fd4!2sCentro%20Hist%C3%B3rico%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1653094323941!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
         <footer>
@@ -184,11 +178,10 @@
                     <div class="logo-mr3">
                         <img src="./img/mr3logo.png" alt="Logo MR3">
                     </div>
-                    <ul>
+                    <ul class="wrap">
                         <li><a href="#">INÍCIO</a></li>
                         <li><a href="#servicos">SERVIÇOS</a></li>
                         <li><a href="#sobre">SOBRE</a></li>
-                        <li><a href="#">CONTATO</a></li>
                         <li><a href="#" class="agendar">AGENDAR ATENDIMENTO!</a></li>
                     </ul>
                 </nav>
@@ -206,7 +199,7 @@
             </div>
             <!-- Redes sociais e parceiros -->
             <div class="linha"></div>
-            <div class="rede-social">
+            <div class="rede-social wrap">
                 <div class="parceiros">
                     <div class="marcas">
                         <div class="marca">
