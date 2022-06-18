@@ -11,15 +11,15 @@
 </head>
 <body>
     <header>
-        <div class="btn-menu">
+        <div id="open-btn" class="btn-menu" onclick="openNav()">
             <img src="./img/icon/menu.png" alt="Botão Menu">
         </div>
         <nav class="menu-mobile">
-                <div id="close-btn">x</div>
-                <li><a href="#">INÍCIO</a></li>
-                <li><a href="#servicos">SERVIÇOS</a></li>
-                <li><a href="#sobre">SOBRE</a></li>
-                <li><a href="#contato">CONTATO</a></li>
+                <div id="close-btn" onclick="closeNav()">x</div>
+                <li><a href="#" onclick="closeNav()">INÍCIO</a></li>
+                <li><a href="#servicos" onclick="closeNav()">SERVIÇOS</a></li>
+                <li><a href="#sobre" onclick="closeNav()">SOBRE</a></li>
+                <li><a href="#contato" onclick="closeNav()">CONTATO</a></li>
         </nav>
         <nav class="menu">
             <div class="logo-mr3">
@@ -219,5 +219,6 @@
             <div class="direitos">Copyright © 2022 Rafael Jardim | Feito por Rafael Jardim.</div>
         </footer>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
