@@ -1,8 +1,13 @@
 @media screen and (max-width: 760px) {
+    .btn-menu {
+        display: block;
+        cursor: pointer;
+    }
     .btn-menu img {
-        margin: 20px;
-        padding: 10px;
-        background-color: #fff;
+        top: 20px;
+        right: 20px;
+        padding: 6px;
+        background-color: #e1e1e1d4;
         border-radius: 7px;
         position: absolute;
     }
@@ -10,7 +15,8 @@
         position: absolute;
         top: 20px;
         right: 20px;
-        background-color: rgba(255, 255, 255, 0.755);
+        padding: 6px;
+        background-color: #cccccc;
         padding: 5px 10px;
         border-radius: 5px;
         font-size: 18px;
@@ -37,9 +43,6 @@
     .menu-mobile li {
         padding: 15px;
         margin: 0;
-    }
-    .menu .logo-mr3 {
-        display: none;
     }
     .menu {
         font-size: 13px;
@@ -80,8 +83,16 @@
     .direitos {
         font-size: 12px;
     }
-     .menu-footer {
+    .menu-footer {
         display: flex;
         height: 100px;
+    }
+}
+@media screen and (max-width: 975px) {
+    .menu .logo-mr3 {
+        display: none;
+    }
+    .menu a{
+        font-size: 14px;
     }
 }
