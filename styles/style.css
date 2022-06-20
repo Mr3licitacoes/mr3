@@ -19,6 +19,9 @@ header {
     max-width: 100%;
     height: 100vh;
 }
+.agendar-mobile {
+    display: none;
+}
 .menu-mobile, .btn-menu {
     display: none;
 }
