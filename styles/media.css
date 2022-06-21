@@ -1,35 +1,38 @@
 @media screen and (max-width: 760px) {
     .agendar-mobile {
         display: block;
-        background-color: #fff;
-        border-radius: 16px;
+        background-color: rgb(244, 244, 244);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-        height: 32px;
         width: 230px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 25px;
         text-align: center;
-        line-height: 32px;
         font-size: 14px;
+        font-weight: 500;
         position: absolute;
         top: 40px;
-        left: 20px;
+        left: 25px;
         cursor: pointer;
-    
     }
     .agendar-mobile:hover {
-        border-radius: 25px;
-        background-color: #fff;
+        background-color: #8DD7F7;
         height: 32px;
         width: 230px;
+        width: 230px;
+        height: 45px;
+        border-radius: 25px;
+        transition: 0.3s;
     }
     .btn-menu {
         display: block;
         cursor: pointer;
     }
     .btn-menu img {
-        top: 32px;
+        top: 38px;
         right: 20px;
         padding: 6px;
-        background-color: #e1e1e1d4;
+        background-color: rgb(237, 237, 237);
         border-radius: 7px;
         position: absolute;
     }
