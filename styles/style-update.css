@@ -45,22 +45,27 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    min-width: 300px;
+    
 }
 .menu li {
-    margin: 30px;
+    margin-left: 30px;
+}
+.menu li:first-child {
+    margin-left: 0;
 }
 .menu a {
     font-size: 1.25rem;
     font-weight: 400;
     padding: 10px;
-    margin: 5px;
     color: rgb(255, 255, 255);
 }
-.social {
+.social-container {
     display: flex;
     justify-content: space-between;
     width: 110px;
+}
+.social-icon img {
+    margin: 5px;
 }
 .header-content {
     display: flex;
@@ -253,7 +258,7 @@ header {
 .gallery-container {
     width: 100%;
     height: 430px;
-    background-color: rgb(97, 97, 97);
+    position: relative;
     
 }
 .gallery {
@@ -291,34 +296,79 @@ header {
     background-position-x: -200px ;
 }
     /* FOOTER */
-.footer-container {
-    height: 850px;
+footer {
     background-color: #34383C;
+
+}
+.footer-container {
+    height: 800px;
     padding: 0 120px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.menu-footer {
+    justify-content: space-between;
+}
+.menu-footer li{
+    margin-left: 15px;
 }
 .logo-mr3-footer img{
     width: auto;
     height: 73px;
 }
+.btn-container {
+    background-color: #FEFEFE;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+}
+.btn-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    height: 50px;
+}
+.btn-contact p {
+    width: 120px;
+    text-align: center;
+    line-height: 18px;
+    margin-right: 10px;
+}
 .contact-container {
-    position: absolute;
-    bottom: 80px;
+    padding-bottom: 80px ;
 }
 .contact-icon {
     display: flex;
     justify-content: start;
     align-items: start;
+    
 }
-.contact h3{
+.contact h3, .contact-icon h3{
     color: #BABABA;
     font-weight: 400;
     margin-left: 8px;
 }
+.address-social {
+    display: flex;
+    justify-content: space-between;
+}
+.address h3{
+    width: 350px ;
+}
+
 
 
 .line {
     background-color: #BABABA;
     height: 1px;
     margin: 16px 0;
+}
+.copyright {
+    height: 50px;
+    color: #BABABA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
