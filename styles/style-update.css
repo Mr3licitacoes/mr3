@@ -342,13 +342,12 @@ footer {
 .contact-icon {
     display: flex;
     justify-content: start;
-    align-items: start;
-    
+    align-items: center;
 }
 .contact h3, .contact-icon h3{
     color: #BABABA;
     font-weight: 400;
-    margin-left: 8px;
+    margin: 4px;
 }
 .address-social {
     display: flex;
