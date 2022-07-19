@@ -63,9 +63,19 @@ header {
     display: flex;
     justify-content: space-between;
     width: 110px;
+    
+}
+.social-icon {
+    min-width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 .social-icon img {
-    margin: 5px;
+    margin-left: 5px;
+}
+.social-icon img:first-child {
+    margin-left: 0px;
 }
 .header-content {
     display: flex;
@@ -156,7 +166,7 @@ header {
     min-width: 330px;
     width: 330px;
     height: auto;
-    margin: 20px 40px;
+    margin: 30px;
 }
 .servicos-icon {
     display: flex;
@@ -201,15 +211,17 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    min-height: 800px;
+    height:  auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .card {
     box-shadow: 0px 3.35309px 6.70617px rgba(0, 0, 0, 0.25);
     background-color: #FDFDFD;
-    width: 450px;
+    min-width: 450px;
     height: 300px;
     border-radius: 8px;
     margin: 20px;
@@ -232,14 +244,14 @@ header {
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
+    height: 1090px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 1090px;
 }
 .office-container img {
     max-width: 100%;
-    min-width: 450px;
+    min-width: 300px;
     display: block;
 }
 .office-content h2 {
@@ -250,6 +262,7 @@ header {
 .office-content p {
     /* font-size: 1.5rem ; */
     max-width: 600px;
+    min-width: 550px;
     font-size: clamp(0.8rem, 2vw, 1.2rem);
     font-weight: 300;
     margin: 40px;
@@ -314,12 +327,11 @@ footer {
     margin-left: 15px;
 }
 .logo-mr3-footer img{
-    width: auto;
-    height: 73px;
+    max-width: 150px; 
 }
 .btn-container {
     background-color: #FEFEFE;
-    width: 200px;
+    min-width: 200px;
     height: 50px;
     border-radius: 25px;
 }
@@ -352,9 +364,11 @@ footer {
 .address-social {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .address h3{
     width: 350px ;
+    
 }
 
 
