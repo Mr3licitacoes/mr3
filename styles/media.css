@@ -1,0 +1,23 @@
+@media screen and (max-width: 1300px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .menu ul{
+        display: none;
+    }
+    .header-content h1 {
+        background-color: rgb(148, 76, 76);
+    }
+}
+
+@media screen and (max-width: 760px) {
+    html {
+        font-size: 12px;
+    }
+    .header-content h1 {
+        background-color: rgb(76, 85, 135);
+    }
+}
