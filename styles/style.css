@@ -85,7 +85,6 @@ header {
     align-content: center;
     align-items: center;
     max-width: 845px;
-    min-width: 420px;
     padding: 0 20px;
     margin: 20px auto;
     height: 84vh;   
@@ -127,7 +126,7 @@ header {
     position: relative;
     max-height: auto;
     min-height: 100vh;
-    padding: 25px;
+    padding: 30px;
 }
 .article-text {
     display: flex;
@@ -140,13 +139,13 @@ header {
     font-size: 3.125rem;
     font-weight: 400;
     color: #353535;
+    white-space: nowrap;
 }
 .article-text p {
     text-align: center;
     font-size: 1.25rem;
     font-weight: 400;
     max-width: 900px;
-    margin: 20px;
     z-index: 2;
     margin-bottom: 100px;
     color: #515151;
@@ -192,7 +191,7 @@ header {
     margin-top: 10px;
     font-size: 1.125rem;
     font-weight: 300;
-    height: 81px;
+    height: 80px;
 }
 .servicos-content li {
     font-size: 1rem;
@@ -223,8 +222,9 @@ header {
 .card {
     box-shadow: 0px 3.35309px 6.70617px rgba(0, 0, 0, 0.25);
     background-color: #FDFDFD;
-    min-width: 450px;
-    height: 300px;
+    width: 450px;
+    min-height: auto;
+    max-height: 300px;
     border-radius: 8px;
     margin: 20px;
     display: flex;
@@ -246,15 +246,20 @@ header {
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
-    height: 1090px;
+    padding: 180px 0;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .office-container img {
     max-width: 100%;
-    min-width: 300px;
+    min-width: 400px;
     display: block;
+}
+.office-content {
+    margin: 40px;
 }
 .office-content h2 {
     font-size: clamp(1rem, 3vw, 3rem) ;
@@ -267,7 +272,7 @@ header {
     min-width: 550px;
     font-size: clamp(0.8rem, 2vw, 1.2rem);
     font-weight: 300;
-    margin: 40px;
+    
 }
     /* GALLERY */
 .gallery-container {
@@ -341,7 +346,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
+    font-size: 1rem;
     height: 50px;
 }
 .btn-contact p {

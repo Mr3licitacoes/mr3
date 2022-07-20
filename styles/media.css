@@ -8,8 +8,12 @@
     .menu ul{
         display: none;
     }
-    .header-content h1 {
-        background-color: rgb(148, 76, 76);
+    .office-container {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .office-container img {
+        max-width: 550px;
     }
 }
 
@@ -18,6 +22,16 @@
         font-size: 12px;
     }
     .header-content h1 {
-        background-color: rgb(76, 85, 135);
+        font-size: 18px;
+       
+    }
+    .card p {
+        height: 100px;
+    }
+    .article-text p  {
+        text-align: start;
+    }
+    .servicos-content p {
+        height: 30px;
     }
 }
