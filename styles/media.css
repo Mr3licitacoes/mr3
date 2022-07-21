@@ -8,6 +8,50 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .btn-menu {
+        display: block;
+        cursor: pointer;
+    }
+    #close-btn img {
+        position: absolute;
+        top: 48px;
+        right: 20px;
+        cursor: pointer;
+    }
+    .menu-mobile {
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100vh;
+        margin: 0;
+        background-color: #212325;
+        position: fixed;
+        right: 0;
+        width: 0;
+        overflow-x: hidden;
+        transition: all 0.3s;
+        backdrop-filter: blur(15px);
+        
+    }
+    .menu-mobile a {
+        font-size: 18px;
+        color: #fff;
+        font-weight: 400;
+    }
+    .menu-mobile ul {
+        padding: 30px;
+    }
+    .menu-mobile li {
+        padding: 20px 0;
+        margin: 0;
+    }
+    .separador {
+        background-color: #fff;
+        width: 90px;
+        height: 1px;
+    }
     .whats-fixe {
         width: 60px;
         right: 20px;
@@ -16,22 +60,27 @@
     .btn-menu {
         display: block;
     }
-    .logo-mr3 {
-        display: none;
-    }
-    .logo-content {
-        display: block;
-        width: 150px;
-    }
-    .header-content-logo {
-        display: none;
-    }
     .menu {
         flex-direction: row-reverse;
         justify-content: space-between;
     }
-    .menu ul{
+    .menu ul {
         display: none;
+    }
+    .logo-mr3 {
+        width: 130px;
+    }
+    .btn-container {
+        display: none;
+    }
+    .social {
+        display: none;
+    }
+    .social-mobile {
+        display: block;
+        position: absolute;
+        bottom: 40px;
+        left: 30px;
     }
     .office-container {
         flex-wrap: wrap-reverse;
@@ -41,7 +90,7 @@
         height: 150px;
     }
         /* Apagar caso troque a foto */
-     .gallery-4 { 
+    .gallery-4 { 
         background-position-x: 0;
     }
     .footer-container {
@@ -49,9 +98,6 @@
     }
     .logo-mr3-footer {
         display: block;
-    }
-    .btn-container {
-        display: none;
     }
 }
 
