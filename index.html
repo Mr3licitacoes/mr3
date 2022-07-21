@@ -12,7 +12,24 @@
 <body>
         <!-- HEADER -->
     <header>
-        <nav class="menu">
+              <!-- Menu mobile -->
+            <nav class="menu-mobile">
+                    <div id="close-btn" onclick="closeNav()">
+                        <img src="./img/icon/close.png" alt="Botão fechar">
+                    </div>
+                    <li><a href="#" onclick="closeNav()">INÍCIO</a></li>
+                    <div class="separador"></div>
+                    <li><a href="#servicos" onclick="closeNav()">SERVIÇOS</a></li>
+                    <div class="separador"></div>
+                    <li><a href="#sobre" onclick="closeNav()">SOBRE</a></li>
+                    <div class="separador"></div>
+                    <li><a href="#contato" onclick="closeNav()">CONTATO</a></li>
+            </nav>
+            <!-- MENU -->
+        <nav class="menu menu-reverse">
+            <div class="btn-menu" id="open-btn" onclick="openNav()">
+                <img src="./img/icon/menu.png" alt="Botão Menu">
+            </div>
             <div class="logo-mr3">
                 <img src="./img/mr3logo.png" alt="Logo MR3">
             </div>
@@ -31,8 +48,11 @@
             </div>
         </nav>
         <section class="header-content">
-                <div>
+                <div class="header-content-logo">
                     <img src="./img/icon/graphic.png" alt="Graphic Icon">
+                </div>
+                <div class="logo-mr3 logo-content">
+                    <img src="./img/mr3logo.png" alt="Logo MR3">
                 </div>
             <div class="row"></div>
                 <h1>
@@ -221,12 +241,10 @@
         </section>
 
         <section class="gallery-container">
-            <article class="gallery">
                 <div class="gallery-1"></div>
                 <div class="gallery-2"></div>
                 <div class="gallery-3"></div>
                 <div class="gallery-4"></div>
-            </article>
         </section>
             <!-- Map -->
         <section>
@@ -238,6 +256,9 @@
         <section class="footer-container">
             <section>
                 <nav class="menu menu-footer">
+                    <div class="btn-menu" id="open-btn" onclick="openNav()">
+                        <img src="./img/icon/menu.png" alt="Botão Menu">
+                    </div>
                     <div class="logo-mr3 logo-mr3-footer">
                         <img src="./img/mr3logo.png" alt="Logo MR3">
                     </div>

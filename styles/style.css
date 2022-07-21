@@ -19,6 +19,13 @@ header {
     background-size: cover !important;
     max-width: 100%;
     height: 100vh;
+    padding: 0 20px;
+}
+.menu-mobile {
+    display: none;
+}
+.btn-menu {
+    display: none;
 }
 .menu {
     display: flex;
@@ -29,7 +36,6 @@ header {
     width: 100%;
     top: 20px;
     min-width: 300px;
-    height: 125px;
 }
 .menu img {
     width: auto;
@@ -39,6 +45,9 @@ header {
     background-color: white;
     padding: 5px 10px;
     box-shadow: 0px 3.86408px 7.72815px rgba(0, 0, 0, 0.25);
+}
+.logo-content {
+    display: none;
 }
 .menu ul {
     display: flex;
@@ -85,7 +94,6 @@ header {
     align-content: center;
     align-items: center;
     max-width: 845px;
-    padding: 0 20px;
     margin: 20px auto;
     height: 84vh;   
 }
@@ -147,6 +155,7 @@ header {
     font-weight: 400;
     max-width: 900px;
     z-index: 2;
+    margin-top: 20px;
     margin-bottom: 100px;
     color: #515151;
 }
@@ -165,7 +174,7 @@ header {
 }
 .servicos-content {
     min-width: 330px;
-    width: 330px;
+    width: 370px;
     height: auto;
     margin: 30px;
 }
@@ -189,9 +198,10 @@ header {
 .servicos-content p {
     text-align: start;
     margin-top: 10px;
-    font-size: 1.125rem;
+    margin-bottom: 30px;
+    font-size: 1.25rem;
     font-weight: 300;
-    height: 80px;
+    height: 100px;
 }
 .servicos-content li {
     font-size: 1rem;
@@ -201,10 +211,6 @@ header {
     margin-left: 5px;
     padding: 3px;
     margin: 1px;
-}
-.servicos-content ul {
-    margin-top: 35px;
-    
 }
     /* ========= CARDS ========= */
 .cards-container {
@@ -246,12 +252,12 @@ header {
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
-    padding: 180px 0;
+    padding: 150px 0;
     height: auto;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-
 }
 .office-container img {
     max-width: 100%;
@@ -262,58 +268,47 @@ header {
     margin: 40px;
 }
 .office-content h2 {
-    font-size: clamp(1rem, 3vw, 3rem) ;
+    font-size: 3.125rem;
     font-weight: 500;
     text-align: center;
 }
 .office-content p {
-    /* font-size: 1.5rem ; */
     max-width: 600px;
     min-width: 550px;
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-size: 1.25rem;
     font-weight: 300;
-    
+    margin-top: 20px;
 }
     /* GALLERY */
 .gallery-container {
     width: 100%;
-    height: 430px;
-    position: relative;
-    
-}
-.gallery {
-    width: 100%;
-    height: 430px;
+    height: 400px;
     display: flex;
 }
 .gallery-1 {
     width: 25%;
-    height: 430px;
     background-image: url('../img/galeria-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .gallery-2 {
     width: 25%;
-    height: 430px;
     background-image: url('../img/galeria-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .gallery-3 {
-    width: 35%;
-    height: 430px;
+    width: 25%;
     background-image: url('../img/galeria-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .gallery-4 {
-    width: 15%;
-    height: 430px;
+    width: 25%;
     background-image: url('../img/galeria-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: -200px ;
+    background-position-x: -85px ;
 }
     /* FOOTER */
 footer {
@@ -322,7 +317,7 @@ footer {
 }
 .footer-container {
     height: 800px;
-    padding: 0 120px;
+    padding: 0 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -330,15 +325,16 @@ footer {
 .menu-footer {
     justify-content: space-between;
 }
-.menu-footer li{
-    margin-left: 15px;
+.menu-footer a {
+    font-size: 1rem;
+
 }
 .logo-mr3-footer img{
-    max-width: 150px; 
+    max-width: 120px;
 }
 .btn-container {
     background-color: #FEFEFE;
-    min-width: 200px;
+    min-width: 150px;
     height: 50px;
     border-radius: 25px;
 }
@@ -349,11 +345,13 @@ footer {
     font-size: 1rem;
     height: 50px;
 }
+.btn-contact img {
+    margin-right: 12px;
+}
 .btn-contact p {
     width: 120px;
     text-align: center;
     line-height: 18px;
-    margin-right: 10px;
 }
 .contact-container {
     padding-bottom: 80px ;
