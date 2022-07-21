@@ -8,50 +8,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    /* MENU MOBILE */
-    .btn-menu {
-        display: block;
-        cursor: pointer;
-    }
-    
-    #close-btn img {
-        position: absolute;
-        top: 50px;
-        right: 20px;
-        padding: 4px;
-        background-color: #cccccc;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-    .menu-mobile {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: rgba(0, 0, 0, 0.786);
-        position: absolute;
-        width: 0;
-        overflow-x: hidden;
-        transition: all 0.3s;
-        backdrop-filter: blur(15px);
-    }
-    .menu-mobile a {
-        font-size: 2.2rem;
-        color: #fff;
-        font-weight: 400;
-    }
-    .menu-mobile li {
-        padding: 15px;
-        margin: 0;
-    }
-    .separador {
-        background-color: #fff;
-        width: 90px;
-        height: 1px;
-    }
-    /* FIM MENU MOBILE */
     .whats-fixe {
         width: 60px;
         right: 20px;
