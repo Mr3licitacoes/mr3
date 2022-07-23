@@ -210,12 +210,15 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: start;
+    align-items: center;
+}
+.marcador {
     align-items: start;
 }
 .marcador img {
     width: 16px;
     height: 16px;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 .servicos-content h1 {
     text-align: center;

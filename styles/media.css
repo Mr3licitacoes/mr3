@@ -84,9 +84,13 @@
         margin: 0 auto;
 
     }
+    .cards-container {
+        padding: 20px 0;
+    }
     .office-container {
         flex-wrap: wrap-reverse;
         justify-content: center;
+        padding: 0;
     }
     .gallery-container {
         height: 150px;
@@ -110,8 +114,12 @@
     .header-content h1 {
         font-size: 18px;
     }
-    .card p {
+    
+    /* .card p {
         height: 100px;
+    } */
+    .article-text h2 {
+        font-size: 2.8rem;
     }
     .article-text p  {
         text-align: start;
@@ -119,8 +127,11 @@
     .servicos-content p {
         margin: 0;
     }
-    .office-container {
-        padding: 100px 0;
+    .servicos-content ul {
+        width: 300px;
+    }
+    .gallery-container {
+        padding: 4px 0;
     }
     .office-container p {
         min-width: 100%;
