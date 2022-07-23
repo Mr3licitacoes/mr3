@@ -84,6 +84,9 @@
         margin: 0 auto;
 
     }
+    .article-text {
+        padding-top: 40px;
+    }
     .cards-container {
         padding: 20px 0;
     }
@@ -115,9 +118,9 @@
         font-size: 18px;
     }
     
-    /* .card p {
+    .card p {
         height: 100px;
-    } */
+    }
     .article-text h2 {
         font-size: 2.8rem;
     }
@@ -129,9 +132,6 @@
     }
     .servicos-content ul {
         width: 300px;
-    }
-    .gallery-container {
-        padding: 4px 0;
     }
     .office-container p {
         min-width: 100%;
