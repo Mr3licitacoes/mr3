@@ -259,11 +259,11 @@ header {
 .card {
     box-shadow: 0px 3.35309px 6.70617px rgba(0, 0, 0, 0.25);
     background-color: #FDFDFD;
-    width: 450px;
+    width: 25rem;
     min-height: auto;
-    max-height: 300px;
-    border-radius: 8px;
-    margin: 20px;
+    max-height: 16rem;
+    border-radius: 0.5rem;
+    margin: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,7 +277,7 @@ header {
     color: #425159;
 }
 .card p {
-    width: 330px ;
+    width: 300px ;
     height: 120px;
     color: #585858;
 }
