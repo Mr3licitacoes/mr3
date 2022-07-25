@@ -1,3 +1,8 @@
+@media screen and (max-width: 1396px) {
+    .card p {
+        height: auto;
+    }
+}
 @media screen and (max-width: 1300px) {
     html {
         font-size: 14px;
@@ -117,10 +122,6 @@
     .header-content h1 {
         font-size: 18px;
     }
-    
-    .card p {
-        height: 100px;
-    }
     .article-text h2 {
         font-size: 2.8rem;
     }
@@ -129,6 +130,10 @@
     }
     .servicos-content p {
         margin: 0;
+        height: 50px;
+    }
+    .servicos-content:last-child {
+        margin-bottom: 40px;
     }
     .servicos-content ul {
         width: 300px;

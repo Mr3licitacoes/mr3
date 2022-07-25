@@ -147,8 +147,8 @@ header {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     background-color: #fff;
 }
-.botao:hover, .btn-container:hover, .whats-fixe:hover {
-    opacity: 80%;
+.botao:hover, .btn-container:hover, .whats-fixe:hover, .social-icon img:hover{
+    opacity: 70%;
     transition: 0.3s;
 }
 .whats-fixe {
@@ -204,7 +204,8 @@ header {
     min-width: 330px;
     width: 370px;
     height: auto;
-    margin: 30px;
+    margin: 20px 10px;
+    
 }
 .servicos-icon {
     display: flex;
@@ -223,19 +224,19 @@ header {
 .servicos-content h1 {
     text-align: center;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.625rem;
     margin-left: 12px;
 }
 .servicos-content p {
     text-align: start;
     margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 1.25rem;
+    
+    font-size: 1.125rem;
     font-weight: 300;
     height: 100px;
 }
 .servicos-content li {
-    font-size: 1rem;
+    font-size: 0.875rem;
     font-weight: 300;
     text-align: start;
     margin-top: 0;
@@ -244,13 +245,18 @@ header {
     margin: 1px;
 }
     /* ========= CARDS ========= */
-.cards-container {
+.cards-background {
     background-image: url('../img/banner2.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
     height:  auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -259,27 +265,29 @@ header {
 .card {
     box-shadow: 0px 3.35309px 6.70617px rgba(0, 0, 0, 0.25);
     background-color: #FDFDFD;
-    width: 25rem;
-    min-height: auto;
-    max-height: 16rem;
+    min-width: 25rem;
+    max-width: 23.75rem;
+    min-height: 13.5rem;
     border-radius: 0.5rem;
     margin: 1.25rem;
+    padding: 1.25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.card img {
-    margin: 18px;
-}
 .card h2 {
     color: #425159;
+    font-size: 1.5rem;
+    margin-top: 0.625rem;
 }
 .card p {
-    width: 300px ;
-    height: 120px;
+    max-width: 370rem;
+    height: 7.5rem;
     color: #585858;
+    font-size: 1rem;
+
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
