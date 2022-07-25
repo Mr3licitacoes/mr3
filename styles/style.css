@@ -401,6 +401,7 @@ footer {
 }
 .contact h3:hover {
     color: #ececec;
+    transition: 0.3s;
 }
 .address-social {
     display: flex;
