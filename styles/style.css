@@ -302,9 +302,11 @@ header {
     max-width: 100%;
     min-width: 400px;
     display: block;
+    overflow-x: hidden;
 }
 .office-content {
     margin: 40px;
+    overflow-x: hidden;
 }
 .office-content h2 {
     font-size: 3.125rem;
