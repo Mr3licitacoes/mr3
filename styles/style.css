@@ -395,6 +395,11 @@ footer {
     text-align: center;
     line-height: 18px;
 }
+.contact {
+    display: flex;
+    flex-direction: row;
+    
+}
 .contact-container {
     padding-bottom: 80px ;
 }
@@ -412,6 +417,11 @@ footer {
     color: #ececec;
     transition: 0.3s;
 }
+.email-whats {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
 .address-social {
     display: flex;
     justify-content: space-between;
@@ -421,9 +431,6 @@ footer {
     width: 350px ;
     
 }
-
-
-
 .line {
     background-color: #BABABA;
     height: 1px;
