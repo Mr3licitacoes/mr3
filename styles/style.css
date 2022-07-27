@@ -9,7 +9,7 @@
     scroll-behavior: smooth;
     color: #353535;
 }
-body {
+html, body, main {
     overflow-x: hidden;
 }
 .overflow {
