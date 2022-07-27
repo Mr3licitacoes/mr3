@@ -315,7 +315,6 @@ header {
 }
 .office-content p {
     max-width: 600px;
-    min-width: 550px;
     font-size: 1.25rem;
     font-weight: 300;
     margin-top: 20px;
