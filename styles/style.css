@@ -397,8 +397,17 @@ footer {
 }
 .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
+}
+.contact-email {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+.contact-email h3 {
+    white-space: nowrap;
+    width: 18rem;
 }
 .contact-container {
     padding-bottom: 80px ;
@@ -407,6 +416,7 @@ footer {
     display: flex;
     justify-content: start;
     align-items: center;
+    margin-right: 20px;
 }
 .contact h3, .contact-icon h3{
     color: #BABABA;
@@ -416,11 +426,6 @@ footer {
 .contact h3:hover {
     color: #ececec;
     transition: 0.3s;
-}
-.email-whats {
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
 }
 .address-social {
     display: flex;
