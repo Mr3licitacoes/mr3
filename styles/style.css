@@ -12,6 +12,9 @@
 body {
     overflow-x: hidden;
 }
+.overflow {
+    overflow-x: hidden;
+}
 header {
     background-image: url('../img/banner.jpg');
     background-attachment: fixed;
@@ -205,7 +208,8 @@ header {
     width: 370px;
     height: auto;
     margin: 20px 10px;
-    
+    overflow-x: hidden;
+
 }
 .servicos-icon {
     display: flex;
