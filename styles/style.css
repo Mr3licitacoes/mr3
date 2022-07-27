@@ -411,6 +411,7 @@ footer {
 }
 .contact-container {
     padding-bottom: 80px ;
+    overflow-x: hidden;
 }
 .contact-icon {
     display: flex;
