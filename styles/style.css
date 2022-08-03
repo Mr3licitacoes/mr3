@@ -251,7 +251,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 800px;
-    height:  auto;
+    height:  100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -291,8 +291,8 @@ header {
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
-    padding: 150px 0;
-    height: auto;
+    
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -301,6 +301,7 @@ header {
 .office-container img {
     max-width: 100%;
     min-width: 400px;
+    max-height: 800px;
     display: block;
     overflow-x: hidden;
 }
@@ -328,28 +329,30 @@ header {
 }
 .gallery-1 {
     width: 25%;
-    background-image: url('../img/galeria-1.jpg');
+    background-image: url('../img/escritorio/galeria-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: bottom;
 }
 .gallery-2 {
     width: 25%;
-    background-image: url('../img/galeria-2.jpg');
+    background-image: url('../img/escritorio/galeria-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .gallery-3 {
     width: 25%;
-    background-image: url('../img/galeria-3.jpg');
+    background-image: url('../img/escritorio/galeria-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: center;
 }
 .gallery-4 {
     width: 25%;
-    background-image: url('../img/galeria-4.jpg');
+    background-image: url('../img/escritorio/galeria-4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: -85px ;
+    background-position-y: center;
 }
     /* FOOTER */
 footer {
