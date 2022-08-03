@@ -32,7 +32,6 @@ header {
     top: 20px;
     max-width: 100%;
     padding: 0 20px;
-
 }
 .menu img {
     width: auto;
@@ -50,8 +49,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .menu li {
     margin-left: 30px;
@@ -94,7 +92,6 @@ header {
     display: flex;
     justify-content: space-between;
     width: 110px;
-    
 }
 .social-icon {
     min-width: 100px;
@@ -205,7 +202,6 @@ header {
     height: auto;
     margin: 20px 10px;
     overflow-x: hidden;
-
 }
 .servicos-icon {
     display: flex;
@@ -230,7 +226,6 @@ header {
 .servicos-content p {
     text-align: start;
     margin-top: 10px;
-    
     font-size: 1.125rem;
     font-weight: 300;
     height: 100px;
@@ -440,7 +435,6 @@ footer {
 }
 .address h3{
     width: 350px ;
-    
 }
 .line {
     background-color: #BABABA;
