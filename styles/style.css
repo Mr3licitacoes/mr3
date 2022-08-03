@@ -326,6 +326,7 @@ header {
     height: 400px;
     display: flex;
     padding: 4px 0;
+    
 }
 .gallery-1 {
     width: 25%;
@@ -339,6 +340,7 @@ header {
     background-image: url('../img/escritorio/galeria-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: bottom;
 }
 .gallery-3 {
     width: 25%;
