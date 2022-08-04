@@ -282,7 +282,6 @@ header {
     height: 7.5rem;
     color: #585858;
     font-size: 1rem;
-
 }
     /* ========== O ESCRITORIO ========== */
 .office-container {
@@ -321,7 +320,6 @@ header {
     height: 400px;
     display: flex;
     padding: 4px 0;
-    
 }
 .gallery-1 {
     width: 25%;
@@ -397,8 +395,7 @@ footer {
 }
 .contact {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;   
 }
 .contact-email {
     display: flex;
